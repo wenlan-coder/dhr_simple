@@ -1,0 +1,13 @@
+@import './theme.less';
+
+// 默认样式，使用默认颜色值  自定义主题切换
+.theme-default {
+  .theme();
+}
+.theme-red {
+  .theme(red);
+}
+// @import 'ant-design-vue/dist/antd.less';
+
+@primary-color: var(--ant-primary-color, blue);
+@primary-1: var(--wenlan-5); // replace tint(@primary-color, 90%)
